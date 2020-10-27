@@ -1,0 +1,12 @@
+<div class="container" >
+    <div *ngFor="let chat of chats" class="card" [ngStyle]="myStyles">
+        <p class="cat-name cat-att">Nom: {{chat.nom}}</p>
+        <p class="cat-att">Modifier le nom: </p>
+        <input [(ngModel)]="chat.nom">
+        <p class="cat-att">Couleur: {{chat.couleur}}</p>
+        <p class="cat-att">Age: {{chat.age}}</p>
+        <div class="container-center">
+            <button class="cat-btn" (click)="onClick(chat.nom)">Action</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+}
+
+.card {
+    background: gray;
+    margin-right: 10px;
+}
+
+.cat-att {
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.cat-name {
+    background: #4646e4;
+}
+
+.cat-btn {
+    border-radius: 3px;
+    background: red;
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+}

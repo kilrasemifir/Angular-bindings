@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angularExercice1Bindings"
+    }
+  },
+  "defaultProject": "angularExercice1Bindings",
+  "cli": {
+    "analytics": "fa3dd280-5b9c-4b58-a484-33fbda52220f"
+  }
 }
